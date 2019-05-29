@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+
+    <!-- Grass Fruits Custom Theme-->
+    <style name="Theme.GrassFruits" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!--<item name="android:windowBackground">@drawable/grass_fruits_bg</item>-->
+        <item name="pageBackground">@style/page_background_img_gf</item>
+        <item name="colorPrimary">@color/colorPrimaryGF</item>
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDarkGF</item>-->
+
+        <item name="colorAccent">@color/colorAccentGF</item>
+        <item name="android:textColorPrimary">@color/textColorPrimaryGF</item>
+        <item name="android:textColorSecondary">@color/textColorSecondaryGF</item>
+        <item name="android:textColorPrimaryInverse">@color/textColorPrimaryInverseGF</item>
+        <item name="android:textColorSecondaryInverse">@color/textColorSecondaryInverseGF</item>
+        <!-- some other theme configurations for actionbar, overflow menu etc. -->
+
+        <!--button-->
+        <item name="button">@style/button_gf</item>
+
+        <!--checkbox and radio buttons styles-->
+        <item name="attr/radioStyle">@style/radioStyle_gf</item>
+
+        <!--text configurations-->
+        <item name="attr/textLarge">@style/text_large_gf</item>
+
+
+        <!-- drawables per tema fruits-->
+
+
+        <item name="attr/mainImage">@drawable/main_image_gf </item>
+
+        <item name="attr/vBarInner">@drawable/v_bar_inner_gf</item>
+        <item name="attr/vBarCentral">@drawable/v_bar_central_gf</item>
+        <item name="attr/vBarOuter">@drawable/v_bar_outer_gf</item>
+
+        <item name="attr/hBarInner">@drawable/h_bar_inner_gf</item>
+        <item name="attr/hBarCentral">@drawable/h_bar_central_gf</item>
+        <item name="attr/hBarOuter">@drawable/h_bar_outer_gf</item>
+
+        <item name="attr/vFilled">@drawable/v_filled_gf</item>
+        <item name="attr/hFilled">@drawable/h_filled_gf</item>
+        <item name="attr/blackHole">@drawable/black_hole_gf</item>
+
+        <item name="attr/beadP1">@drawable/bead_p1_gf</item>
+        <item name="attr/beadP2">@drawable/bead_p2_gf</item>
+        <item name="attr/beadP3">@drawable/bead_p3_gf</item>
+        <item name="attr/beadP4">@drawable/bead_p4_gf</item>
+
+        <item name="attr/arrowUp">@drawable/arrow_up_gf</item>
+        <item name="attr/arrowRight">@drawable/arrow_right_gf</item>
+        <item name="attr/arrowDown">@drawable/arrow_down_gf</item>
+        <item name="attr/arrowLeft">@drawable/arrow_left_gf</item>
+
+        <item name="attr/oracle">@drawable/oracle_gf</item>
+
+        <item name="attr/ambientMusic">@raw/cloudfields</item>
+        <item name="attr/placingBead">@raw/place_bead_gf</item>
+        <item name="attr/fallingBead">@raw/fall_gf</item>
+
+    </style>
+
+
+
+
+
+
+
+    <!--Space aliens Custom Theme          -->
+    <style name="Theme.SpaceAliens" parent="Theme.AppCompat">
+        <!--<item name="android:windowBackground">@drawable/space_aliens_bgjpg</item>-->
+        <item name="pageBackground">@style/page_background_img_sa</item>
+        <item name="colorPrimary">@color/colorPrimarySA</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkSA</item>
+        <!-- The Color of the Status bar -->
+        <!--<item name="statusBarColor">@color/colorPrimaryDarkSA</item>-->
+        <!--<item name="android:windowTranslucentStatus">true</item>  only for api superiori-->
+
+        <item name="colorAccent">@color/colorAccentSA</item>
+        <item name="android:textColorPrimary">@color/textColorPrimarySA</item>
+        <item name="android:textColorSecondary">@color/textColorSecondarySA</item>
+        <item name="android:textColorPrimaryInverse">@color/textColorPrimaryInverseSA</item>
+        <item name="android:textColorSecondaryInverse">@color/textColorSecondaryInverseSA</item>
+
+        <!--button-->
+        <item name="button">@style/button_sa</item>
+
+
+        <!--checkbox and radio buttons styles-->
+        <item name="attr/radioStyle">@style/radioStyle_sa</item>
+
+        <!-- text styles-->
+        <item name="attr/textLarge">@style/text_large_sa</item>
+
+        <!-- drawables for SpaceAliens theme-->
+        <item name="attr/mainImage">@drawable/main_image_sa </item>
+
+        <item name="attr/vBarInner">@drawable/v_bar_inner_sa</item>
+        <item name="attr/vBarCentral">@drawable/v_bar_central_sa</item>
+        <item name="attr/vBarOuter">@drawable/v_bar_outer_sa</item>
+
+        <item name="attr/hBarInner">@drawable/h_bar_inner_sa</item>
+        <item name="attr/hBarCentral">@drawable/h_bar_central_sa</item>
+        <item name="attr/hBarOuter">@drawable/h_bar_outer_sa</item>
+
+        <item name="attr/vFilled">@drawable/v_filled_sa</item>
+        <item name="attr/hFilled">@drawable/h_filled_sa</item>
+        <item name="attr/blackHole">@drawable/black_hole_sa</item>
+
+        <item name="attr/beadP1">@drawable/bead_p1_sa</item>
+        <item name="attr/beadP2">@drawable/bead_p2_sa</item>
+        <item name="attr/beadP3">@drawable/bead_p3_sa</item>
+        <item name="attr/beadP4">@drawable/bead_p4_sa</item>
+
+        <item name="attr/arrowUp">@drawable/arrow_up_sa</item>
+        <item name="attr/arrowRight">@drawable/arrow_right_sa</item>
+        <item name="attr/arrowDown">@drawable/arrow_down_sa</item>
+        <item name="attr/arrowLeft">@drawable/arrow_left_sa</item>
+
+        <item name="attr/oracle">@drawable/oracle_sa</item>
+
+
+        <item name="attr/ambientMusic">@raw/noctuary</item>
+        <item name="attr/placingBead">@raw/place_bead_sa</item>
+        <item name="attr/fallingBead">@raw/fall_sa</item>
+
+
+    </style>
+
+
+</resources>
+
+
+
+    <!--Could be useful (set gradient background):  <item name="pageBackground">@style/page_background_green_beige</item> -->

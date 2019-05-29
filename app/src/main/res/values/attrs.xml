@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+
+    <!--BACKGROUND ATTRS-->
+    <attr name="pageBackground" format="reference" />
+
+    <attr name="mainImage" format="reference" />
+
+
+    <!--ELEMENTS ATTRS-->
+    <attr name="button" format="reference" />
+    <attr name="spinner" format="reference" />
+    <attr name="radioStyle" format="reference"/>
+    <attr name="checkBoxStyle" format="reference"/>
+
+
+    <!--TEXT ATTRS-->
+    <attr name="textLarge" format="reference" />
+
+
+    <!--IMAGES ATTRS-->
+    <attr name="vBarInner" format="reference"/>
+    <attr name="vBarCentral" format="reference"/>
+    <attr name="vBarOuter" format="reference"/>
+
+    <attr name="hBarInner" format="reference"/>
+    <attr name="hBarCentral" format="reference"/>
+    <attr name="hBarOuter" format="reference"/>
+
+    <attr name="vFilled" format="reference"/>
+    <attr name="hFilled" format="reference"/>
+    <attr name="blackHole" format="reference"/>
+
+    <attr name="beadP1" format="reference"/>
+    <attr name="beadP2" format="reference"/>
+    <attr name="beadP3" format="reference"/>
+    <attr name="beadP4" format="reference"/>
+
+    <attr name="arrowUp" format="reference"/>
+    <attr name="arrowRight" format="reference"/>
+    <attr name="arrowDown" format="reference"/>
+    <attr name="arrowLeft" format="reference"/>
+
+    <attr name="oracle" format="reference"/>
+
+
+    <!--SOUND ATTRS-->
+    <attr name="ambientMusic" format="reference"/>
+    <attr name="placingBead" format="reference"/>
+    <attr name="fallingBead" format="reference"/>
+
+
+
+
+
+
+
+
+
+</resources>

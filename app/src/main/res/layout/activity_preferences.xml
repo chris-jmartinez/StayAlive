@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="32dp"
+    style="?pageBackground"
+    tools:context="ma2015.trabocchetto.activity.PreferencesActivity">
+
+    <TextView
+        android:id="@+id/textViewSelectTheme"
+        style="?textLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/preferences_text_select_theme" />
+
+    <Spinner
+        android:id="@+id/spinnerThemes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewSelectTheme"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="@dimen/spinner_margin_left"
+        android:layout_marginStart="@dimen/spinner_margin_left"
+        android:layout_toRightOf="@+id/textViewSelectTheme"
+        android:layout_toEndOf="@+id/textViewSelectTheme"
+        android:entries="@array/themes_array"
+        android:spinnerMode="dropdown" />
+
+
+
+
+
+    <TextView
+        android:id="@+id/textViewToggleMusic"
+        style="?textLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewSelectTheme"
+        android:layout_marginTop="16dp" />
+
+    <Switch
+        android:id="@+id/toggle_music"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewToggleMusic"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/textViewToggleMusic"
+        android:layout_toEndOf="@+id/textViewToggleMusic"
+
+        android:textOff="@string/preferences_text_state_off"
+        android:textOn="@string/preferences_text_state_on" />
+
+
+
+    <TextView
+        android:id="@+id/textViewToggleEffects"
+        style="?textLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewToggleMusic"
+        android:layout_marginTop="16dp" />
+
+    <Switch
+        android:id="@+id/toggle_effects"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewToggleEffects"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/textViewToggleEffects"
+        android:layout_toEndOf="@+id/textViewToggleEffects"
+
+        android:textOff="@string/preferences_text_state_off"
+        android:textOn="@string/preferences_text_state_on" />
+
+
+
+
+    <Button
+        android:id="@+id/buttonBack"
+        style="?button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/button_margin_bottom"
+        android:text="@string/preferences_button_back"
+        android:onClick="backToMain"/>
+
+
+
+
+</RelativeLayout>

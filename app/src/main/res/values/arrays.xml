@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+    <integer-array name="vbarpos_images">
+        <item>@drawable/blue_bar_outer</item>
+        <item>@drawable/blue_bar_central</item>
+        <item>@drawable/blue_bar_inner</item>
+    </integer-array>
+
+
+    <integer-array name="hbarpos_images">
+        <item>@drawable/red_bar_outer</item>
+        <item>@drawable/red_bar_central</item>
+        <item>@drawable/red_bar_inner</item>
+    </integer-array>
+    -->
+
+</resources>

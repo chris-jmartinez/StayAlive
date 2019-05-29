@@ -1,0 +1,156 @@
+<resources>
+
+
+    <string name="app_name">StayAlive</string>
+
+
+    <!--COMMON ELEMENTS-->
+    <string name="button_back">BACK</string>
+    <string name="button_ok">OK</string>
+    <string name="button_start_game">START THE GAME</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+
+    <!-- MENU QUICK PREFS-->
+    <string name="menu_title">Prefs</string>
+    <string name="menu_music_on">Music(ON)</string>
+    <string name="menu_music_off">Music(OFF)</string>
+    <string name="menu_effects_on">Effects(ON)</string>
+    <string name="menu_effects_off">Effects(OFF)</string>
+    <string name="menu_vibrate_on">Vibrate(ON)</string>
+    <string name="menu_vibrate_off">Vibrate(OFF)</string>
+
+    <!--MAIN LAYOUT-->
+    <string name="main_text_contentDescr_image">Main Image</string>
+    <string name="main_text_button_startGame">Start New Game!</string>
+    <string name="main_text_button_ranking">Ranking</string>
+    <string name="main_text_button_history">History</string>
+    <string name="main_text_button_preferences">Preferences</string>
+    <string name="main_exit_game_title">EXIT</string>
+    <string name="main_exit_game_message">Do you really want to exit from the game, my friend?</string>
+    <string name="main_exiting_toast">See you soon, my friend</string>
+
+    <string name="grassFruits">Grass Fruits</string>
+
+    <string name="space">Space</string>
+
+    <!--GAME LAYOUT-->
+    <string name="game_icon_player_content_description">Moving Player Icon</string>
+    <string name="game_hey_place_a_bead">Player %1$d, %2$s! Place your bead</string>
+    <string name="game_begin">BEGIN!</string>
+    <string name="game_hey_move">Player %1$d, %2$s! Move a bar!\nYou still have %3$d beads left.</string>
+    <string name="game_some_beads_fallen">Ouch! Someone is fallen</string>
+    <string name="game_winner">WINNER!</string>
+    <string name="game_hey_winner">WINNER: Player %1$d, %2$s!</string>
+    <string name="game_rules">Rules</string>
+    <string name="game_quit">Quit\nMatch</string>
+    <string name="game_results">Results</string>
+
+    <string name="game_match_results">MATCH RESULTS</string>
+    <string name="game_results_earned"> - Earned Points:</string>
+    <string name="game_results_penalties">\n(Penalties:</string>
+    <string name="game_results_penalty_on">PenaltyMode:ON\n\n</string>
+    <string name="game_results_penalty_off">PenaltyMode:OFF\n\n</string>
+
+    <string name="game_main_menu">Main Menu</string>
+    <string name="game_really">Ohhh Come On!, Really?</string>
+    <string name="game_really_want">Do you really want to quit the match, my friend?</string>
+    <string name="game_quit_now">Quit Now</string>
+    <string name="game_quitting">Quitting the match</string>
+    <string name="game_resume_game">Resume Game</string>
+    <string name="game_new_game">NewGame</string>
+    <string name="game_rules_explanation">The Goal:\nYou have to move bars in order to drop down and kill all
+        the beads of your opponents! Try to make your beads survive at this slaughter!\nSliding a bar may cause
+        uncovered holes to appear under a bead: that bead will fall and die.\n\n
+    #RULE#1:You can\'t slide bars that were slid by your opponents in the previous turn.\n\n
+    #RULE#2:When only 2 players are left, a player cannot slide the same bar for more than two consecutive turns (2 times:OK, 3 times:No!).\n\n
+    #RULE#3:If the last remaining beads belonging to some different players, fall all down at the same time during a turn (and could be the last turn!),
+        the player who slided the bar (dead or not) beats the other ones. For the remaining players, and situations where there\'s no way to predict who died first, a Mysterious Oracle will Reveal the Death Sequence&#8230; \n\n
+    #WARN#:If Penalty mode is activated, touching a forbidden bar will give you 1 penalty! (Each penalty: -5point subtracted to the final score). So train your memory!\n
+        #NOTE#:In Penalty mode: if you try to move a forbidden bar that is (for example) in outer position, in outward direction, no penalty is added (because you are just trying to move it the wrong way).\n\n
+
+    #Points# (without penalties):\n
+    4P: 1st:100, 2nd=50, 3rd=25, 4th=0\n
+    3P: 1st:100, 2nd=50, 3rd=0\n
+    2P: 1st:100, 2nd=0.
+    </string>
+    <string name="game_bar_already_outer_position">Not allowed. Bar already in max outer position.</string>
+    <string name="game_bar_already_inner_position">Not allowed. Bar already in max inner position.</string>
+
+    <string name="game_oracle_reveals">Oracle Reveals Death Order:\n</string>
+    <string name="game_oracle_sentence"> DIES. Podium:</string>
+
+
+
+
+    <!--GAME SETTINGS LAYOUT -->
+    <string name="gamesettings_text_select_players">Select the number of players</string>
+    <string name="gamesettings_text_4players">4 Players</string>
+    <string name="gamesettings_text_3players">3 Players</string>
+    <string name="gamesettings_text_2players">2 Players</string>
+    <string name="gamesettings_text_insert_nicknames">Insert your nicknames:\nmax 10 chars, alphanumeric, no spaces.\nAlready existing players will be suggested:\nselect them, or type another nickname to create a new player.</string>
+    <string name="gamesettings_text_name_player">Nickname Player</string>
+    <string name="gamesettings_autocomplete_tv_hint_player">Nickname Player %1$d</string>
+    <string name="gamesettings_penalty_mode">PenaltyMode(move forbidden bar:-5pt)</string>
+    <string name="gamesettings_fill_fields">FILL ALL THE FIELDS</string>
+    <string name="gamesettings_choose_different_names">CHOOSE DIFFERENT NAMES FOR PLAYERS</string>
+
+    <!--RANKING LAYOUT-->
+    <string name="ranking_title">RANKING</string>
+    <string name="ranking_firstrow_player_name">Player</string>
+    <string name="ranking_firstrow_score">Score</string>
+    <string name="ranking_firstrow_wins">Wins</string>
+    <string name="ranking_firstrow_losses">Losses</string>
+    <string name="ranking_firstrow_skill">Skill%</string>
+    <string name="ranking_firstrow_player_to_cancel">Player To Cancel</string>
+    <string name="ranking_firstrow_player_delete">Delete</string>
+    <string name="ranking_firstrow_delete_all">Delete All Players</string>
+
+    <string name="ranking_confirm_player_delete">Confirm Player Delete</string>
+    <string name="ranking_really_wanna_delete_this_player">Do you really want to delete the player %1$s?</string>
+    <string name="ranking_deleted_player">Player Deleted. GoodBye %1$s :(</string>
+
+    <string name="ranking_player_doesnt_exist_title">No such player</string>
+    <string name="ranking_player_doesnt_exist">You typed a player that doesn\'t exist. Nothing deleted.</string>
+
+    <string name="ranking_confirm_delete_all_players_title">Confirm All Players delete</string>
+    <string name="ranking_really_wanna_delete_all_players">Do you really want to delete ALL the players? Are you sure?\n(Keep in mind this will not delete history of played matches)</string>
+    <string name="ranking_all_players_deleted_toast">All Players Deleted</string>
+    <string name="ranking_skill_explanation_title">Skill(%) Explanation</string>
+    <string name="ranking_skill_explanation_message">The Skill is calculated as following: \nWins/(Wins+Losses)\nSo, as much as a player join matches, the value gets updated and becomes a real skill indicator</string>
+
+
+
+
+    <!--HISTORY LAYOUT-->
+    <string name="history_title">HISTORY OF PLAYED MATCHES</string>
+    <string name="history_firstrow_num">#</string>
+    <string name="history_firstrow_date">Date</string>
+    <string name="history_firstrow_first">1st</string>
+    <string name="history_firstrow_second">2nd</string>
+    <string name="history_firstrow_third">3rd</string>
+    <string name="history_firstrow_fourth">4th</string>
+
+    <!--PREFERENCES LAYOUT-->
+    <string name="preferences_text_select_theme">Select Theme:</string>
+    <!--<string name="preferences_text_select_language">Select Language:</string>-->
+    <string name="preferences_text_toggle_music_on">Music: (ON)</string>
+    <string name="preferences_text_toggle_music_off">Music: (OFF)</string>
+    <string name="preferences_text_toggle_effects_on">Effects(inGame): (ON)</string>
+    <string name="preferences_text_toggle_effects_off">Effects(inGame): (OFF)</string>
+
+    <string-array name="themes_array">
+        <item>Nature\u0026Fruits</item>
+        <item>Space\u0026Aliens</item>
+    </string-array>
+
+    <string name="preferences_text_state_on">On</string>
+    <string name="preferences_text_state_off">Off</string>
+
+    <string name="preferences_button_back">Back</string>
+
+
+
+
+
+</resources>

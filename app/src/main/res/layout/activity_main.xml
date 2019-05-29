@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:weightSum="10"
+    style="?pageBackground"
+    tools:context=".MainActivity">
+
+
+
+    <ImageView android:id="@+id/mainImage"
+        android:contentDescription="@string/main_text_contentDescr_image"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:src="?attr/mainImage"/>
+
+
+
+
+    <Button android:id="@+id/buttonStartNewGame"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="@string/main_text_button_startGame"
+        android:layout_weight="1"
+        style="?button"
+        android:onClick="startNewGame"/>
+
+    <Button android:id="@+id/buttonRanking"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="@string/main_text_button_ranking"
+        android:layout_weight="1"
+        style="?button"
+        android:onClick="ranking" />
+
+    <Button android:id="@+id/buttonHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/main_text_button_history"
+        style="?button"
+        android:onClick="history" />
+
+    <Button android:id="@+id/buttonPreferences"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="10dp"
+        android:text="@string/main_text_button_preferences"
+        style="?button"
+        android:onClick="prefs"/>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"/>
+
+
+    <!--utili nel caso si voglia tornare ad un relative layout puro:
+        android:layout_below="@+id/mainImage"
+        android:layout_centerHorizontal="true"
+
+        android:layout_below="@+id/buttonStartNewGame"
+        android:layout_centerHorizontal="true"
+
+        android:layout_below="@+id/buttonHighScores"
+        android:layout_centerHorizontal="true"
+
+        android:layout_below="@+id/buttonHistory"
+        android:layout_centerHorizontal="true"
+      -->
+
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--original App Theme colors:-->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+
+
+    <!--COLORS FOR GRASS FRUITS (GF) THEME-->
+
+    <color name="colorPrimaryGF">#8BC34A</color>    <!--COLORE ACTION BAR-->
+    <color name="colorPrimaryDarkGF">#7CB342</color>  <!--COLORE AL DI SOPRA DELLA ACTION BAR-->
+    <color name="colorPrimaryLightGF">#DCEDC8</color>
+    <color name="colorAccentGF">#c69e71</color>  <!--COLORE PICCOLE LINEE SOTTO CAMPI DI EDIT TEXT (SE SELEZIONATE), SPUNTE CHECKBOX, ON/OFF-->
+    <!-- text color: white -->
+    <color name="textColorPrimaryGF">#de000000</color> <!--COLORE SCRITTA NEI PULSANTI, E COLORE DI CIO' CHE VIENE INSERITO NELLE EDIT TEXT-->
+    <color name="textColorSecondaryGF">#9E9E9E</color> <!--COLORE PICCOLE LINEE SOTTO CAMPI DI EDIT TEXT (SE NON SELEZIONATE), CERCHIOLINI RADIO BUTTONS, SPINNER, BARRA SCROLL-->
+    <!-- inverse text color: 87% black -->
+    <color name="textColorPrimaryInverseGF">#de343434</color>
+    <color name="textColorSecondaryInverseGF">#444444</color>
+
+    <color name="textColorRadioButtonGF">#535353</color>
+    <color name="textColorCheckBoxGF">#949494</color>
+
+
+
+
+
+    <!-- COLORS FOR SPACE ALIENS (SA) THEME -->
+    <color name="colorPrimarySA">#03A9F4</color> <!--COLORE ACTION BAR-->
+    <color name="colorPrimaryDarkSA">#037ce5</color>  <!--COLORE AL DI SOPRA DELLA ACTION BAR-->
+    <color name="colorPrimaryLightSA">#b3e5fc</color>
+    <color name="colorAccentSA">#bf007c</color> <!--COLORE PICCOLE LINEE SOTTO CAMPI DI EDIT TEXT (SE SELEZIONATE), SPUNTE CHECKBOX, ON/OFF-->
+    <!-- text color: white -->
+    <color name="textColorPrimarySA">#dddce4</color>  <!--COLORE SCRITTA NEI PULSANTI, E COLORE DI CIO' CHE VIENE INSERITO NELLE EDIT TEXT-->
+    <color name="textColorSecondarySA">#379bff</color>  <!--COLORE PICCOLE LINEE SOTTO CAMPI DI EDIT TEXT (SE NON SELEZIONATE), CERCHIOLINI RADIO BUTTONS, SPINNER, BARRA SCROLL-->
+    <!-- inverse text color: 87% black -->
+    <color name="textColorPrimaryInverseSA">#dbdbdb</color>
+    <color name="textColorSecondaryInverseSA">#d9d9d9</color>
+
+    <color name="textColorRadioButtonSA">#e3e3e3</color>
+    <color name="textColorCheckBoxSA">#cccccc</color>
+
+
+</resources>
+
+
+
+
+
+

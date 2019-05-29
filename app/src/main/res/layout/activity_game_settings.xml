@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gameSettingsLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="32dp"
+    android:paddingBottom="16dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    style="?pageBackground"
+    tools:context="ma2015.trabocchetto.activity.GameSettingsActivity">
+
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:id="@+id/textSelectNumPlayers"
+        style="@style/text_large"
+        android:text="@string/gamesettings_text_select_players" />
+
+
+    <RadioGroup
+        android:id="@+id/radiogroup_select_numplayers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <RadioButton android:id="@+id/four_players"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            style="?attr/radioStyle"
+            android:text="@string/gamesettings_text_4players"
+            android:onClick="onRadioButtonClicked"/>
+
+        <RadioButton android:id="@+id/three_players"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            style="?attr/radioStyle"
+            android:text="@string/gamesettings_text_3players"
+            android:onClick="onRadioButtonClicked"/>
+
+        <RadioButton android:id="@+id/two_players"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            style="?attr/radioStyle"
+            android:text="@string/gamesettings_text_2players"
+            android:onClick="onRadioButtonClicked"/>
+
+
+
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_back"
+        android:onClick="backToMain"
+        style="?button"/>
+
+</LinearLayout>
